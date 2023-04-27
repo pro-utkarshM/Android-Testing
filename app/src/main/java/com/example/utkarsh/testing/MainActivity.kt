@@ -1,4 +1,4 @@
-package com.example.utkarsh.testing
+﻿package com.example.utkarsh.testing
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.i("MYTAG", "MainActivity :OnCreate")
-        
+        //can learn by doin' things
         //val used Read only, greetingTextView=variable
         val greetingTextView = findViewById<TextView>(R.id.tvHello)
         val inputFeild = findViewById<EditText>(R.id.etName)
